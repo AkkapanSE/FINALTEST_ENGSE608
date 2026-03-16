@@ -65,3 +65,20 @@
 
 
 ---
+
+## 📐 การออกแบบระบบ (System Design)
+
+### 1. โครงสร้างไฟล์ (Project Structure)
+แอปพลิเคชันถูกออกแบบตามหลักการแยกส่วน (Separation of Concerns) เพื่อให้ง่ายต่อการทดสอบและแก้ไข:
+- **Models:** จัดการโครงสร้างข้อมูล
+- **Providers:** จัดการสถานะแอปพลิเคชัน (State Management)
+- **Services:** จัดการการจัดเก็บข้อมูลถาวร (Persistent Storage)
+- **Screens:** ส่วนแสดงผลหน้าจอผู้ใช้งาน
+
+### 2. ฐานข้อมูล (Database Schema)
+ตาราง `coffee` ประกอบด้วย:
+- `id`: Primary Key (Integer)
+- `name`: ชื่อเมนู (String)
+- `type`: ประเภทเมนู (String)
+- `price`: ราคา (Double)
+- `status`: สถานะการจำหน่าย (String)
