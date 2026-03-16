@@ -51,17 +51,17 @@
 ### 1. หน้าจอหลักและระบบค้นหา
 | เมนูทั้งหมด | ระบบการค้นหาเมนู | แอพพลิเคชั่นบนหน้าจอ |
 |:---:|:---:|:---:|
-| ![เมนู](./picture_final_test608/เมนู.png) | ![การค้นหา](./picture_final_test608/การค้นหา.png) | ![หน้าจอ]([./picture_final_test608/แอพพลิเคชั่นบนหน้าจอ.png](https://github.com/AkkapanSE/FINALTEST_ENGSE608/blob/main/flutter_application_1/picture_final_test608/%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD.png?raw=true)) |
+| ![เมนู](./flutter_application_1/picture_final_test608/เมนู.png) | ![การค้นหา](./flutter_application_1/picture_final_test608/การค้นหา.png) | ![หน้าจอ](./flutter_application_1/picture_final_test608/แอพพลิเคชั่นบนหน้าจอ.png) |
 
 ### 2. การจัดการข้อมูล (CRUD)
 | การเพิ่มเมนูใหม่ | ระบบยืนยันการลบ (1) | ระบบยืนยันการลบ (2) |
 |:---:|:---:|:---:|
-| ![การเพิ่มเมนู](./picture_final_test608/การเพิ่มเมนู.png) | ![ลบ1](./picture_final_test608/ลบ1.png) | ![ลบ2](./picture_final_test608/ลบ2.png) |
+| ![การเพิ่มเมนู](./flutter_application_1/picture_final_test608/การเพิ่มเมนู.png) | ![ลบ1](./flutter_application_1/picture_final_test608/ลบ1.png) | ![ลบ2](./flutter_application_1/picture_final_test608/ลบ2.png) |
 
 ### 3. โครงสร้างโปรเจกต์
 | โครงสร้างไฟล์ตามโจทย์กำหนด |
 |:---:|
-| ![โครงสร้าง](./picture_final_test608/โครงสร้างแอพพลิเคชั่นตามโจทย์.png) |
+| ![โครงสร้าง](./flutter_application_1/picture_final_test608/โครงสร้างแอพพลิเคชั่นตามโจทย์.png) |
 
 
 ---
