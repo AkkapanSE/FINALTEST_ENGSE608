@@ -1,0 +1,35 @@
+name: coffeestore
+description: "แอปบันทึกเมนูกาแฟ - สอบปฏิบัติปลายภาค"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1       # ตัวจัดการ state
+  sqflite: ^2.3.0        # ตัวจัดการฐานข้อมูล
+  path: ^1.9.0           # ตัวช่วยจัดการ path ไฟล์
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1 # ตัวสร้างไอคอนแอป
+
+# ตั้งค่าไอคอนแอปตรงนี้
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/cafe.png" # ตรวจสอบว่ามีรูปในโฟลเดอร์นี้จริงๆ
+  adaptive_icon_background: "#FFFFFF" # สีพื้นหลังไอคอนสำหรับ Android
+
+flutter:
+  uses-material-design: true
+
+  # เปิดใช้งานโฟลเดอร์ assets
+  assets:
+    - assets/images/cafe.png
