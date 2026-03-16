@@ -23,11 +23,6 @@
 ## 🖼️ ภาพหน้าจอการใช้งาน (Screenshots)
 *(หมายเหตุ: โปรดแนบไฟล์รูปภาพของคุณในโฟลเดอร์ screenshots เพื่อให้แสดงผล)*
 
-| หน้าบนแอพพลิเคชั่น  | หน้าเมนู | หน้าสรุปผล (Dashboard) | | หน้าหลัก (List Screen) | หน้าเพิ่มข้อมูล (Form) | หน้าสรุปผล (Dashboard) | | หน้าสรุปผล (Dashboard) |
-|:---:|:---:|:---:||:---:|:---:|:---:||:---:|
-| ![Form](./screenshots/form.png) |  | 
-| ![List](./screenshots/list.png) | ![Form](./screenshots/form.png) | ![Dash](./screenshots/dash.png) |
-| ![List](./screenshots/list.png) | ![Form](./screenshots/form.png) 
 
 ---
 
