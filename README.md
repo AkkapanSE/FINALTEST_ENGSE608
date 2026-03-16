@@ -1,0 +1,54 @@
+# ☕ Coffee Store App (โปรเจกต์สอบปฏิบัติปลายภาค)
+**รายวิชา:** ENGSE608 Mobile Devices Application Design and Development
+**ผู้พัฒนา:** นายเอกพันธ์ [ใส่นามสกุลของคุณ]
+**รหัสประจำตัว:** 67543210050-0 (เลขที่ 14)
+**Package Name:** com.akkapan.coffeestore
+
+---
+
+## 📱 ภาพรวมแอปพลิเคชัน (Application Overview)
+แอปพลิเคชันสำหรับจัดการและบันทึกสูตรเมนูกาแฟ พัฒนาด้วย Flutter โดยเน้นการใช้งานที่ง่าย รวดเร็ว และมีการจัดเก็บข้อมูลแบบ Local Database เพื่อความสะดวกในการใช้งานแบบออฟไลน์
+
+### ฟีเจอร์หลัก (Key Features)
+- [x] **Management (CRUD):** เพิ่ม, แสดง, แก้ไข และลบข้อมูลเมนูกาแฟได้สมบูรณ์
+- [x] **Search System:** ระบบค้นหาชื่อเมนูแบบ Real-time
+- [x] **Statistical Dashboard:** หน้าสรุปผลที่คำนวณจำนวนเมนูทั้งหมด, เมนูพร้อมขาย และราคาเฉลี่ย
+- [x] **State Management:** ใช้ Provider ในการแจ้งเตือนและอัปเดตข้อมูลข้ามหน้าจอ
+- [x] **Local Database:** ใช้ sqflite เก็บข้อมูลจริงภายในเครื่อง
+- [x] **Validation:** ระบบตรวจสอบข้อมูลก่อนบันทึกเพื่อป้องกันค่าว่าง
+- [x] **Interactive UI:** มีระบบ Confirmation Dialog ก่อนลบข้อมูล และ SnackBar แจ้งเตือน
+
+---
+
+## 🖼️ ภาพหน้าจอการใช้งาน (Screenshots)
+*(หมายเหตุ: โปรดแนบไฟล์รูปภาพของคุณในโฟลเดอร์ screenshots เพื่อให้แสดงผล)*
+
+| หน้าหลัก (List Screen) | หน้าเพิ่มข้อมูล (Form) | หน้าสรุปผล (Dashboard) |
+|:---:|:---:|:---:|
+| ![List](./screenshots/list.png) | ![Form](./screenshots/form.png) | ![Dash](./screenshots/dash.png) |
+
+---
+
+## 🏗️ โครงสร้างโปรเจกต์ (Project Structure)
+เพื่อให้ง่ายต่อการบำรุงรักษา แอปได้ถูกจัดโครงสร้างแบบแยกส่วน (Clean Architecture):
+- `lib/models/`: ไฟล์ `coffee_model.dart` สำหรับนิยามโครงสร้างข้อมูล
+- `lib/providers/`: ไฟล์ `coffee_provider.dart` สำหรับจัดการ Logic และ State
+- `lib/services/`: ไฟล์ `database_helper.dart` สำหรับเชื่อมต่อ SQLite
+- `lib/screens/`: ไฟล์หน้าจอต่างๆ ของแอปพลิเคชัน
+- `lib/widgets/`: ไฟล์ชิ้นส่วน UI ที่นำกลับมาใช้ซ้ำได้
+
+---
+
+## 🛠️ เทคโนโลยีและแพลตฟอร์ม (Tech Stack)
+- **Framework:** Flutter (Material 3 Design)
+- **State Management:** Provider
+- **Database:** sqflite (SQLite)
+- **Platform:** iOS (ทดสอบบน Simulator iPhone 16e)
+
+---
+
+## 🚀 วิธีการติดตั้งและรันโปรเจกต์
+1. Clone โปรเจกต์นี้ลงในเครื่อง
+2. รันคำสั่ง `flutter pub get` เพื่อโหลด dependencies
+3. รันคำสั่ง `flutter pub run flutter_launcher_icons` เพื่อสร้างไอคอน
+4. รันคำสั่ง `flutter run` เพื่อเริ่มใช้งานแอป
